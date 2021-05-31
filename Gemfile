@@ -67,6 +67,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 
-gem 'spina', path:'./modules/Spina'
+gem 'spina'
+#gem 'spina', path:'./modules/Spina'
 gem 'spina-blog', path:'./modules/spina-blog'
 gem 'spina-comments', path:'./modules/spina-comments'
