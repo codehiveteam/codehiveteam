@@ -2,14 +2,16 @@
 lock "~> 3.11.2"
 
 set :application, "NewwwsMe"
-set :repo_url, "git@example.com:me/my_repo.git"
+set :repo_url, "git@github.com:codehiveteam/codehiveteam.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-# set :deploy_to, "/var/www/my_app_name"
-
+set :deploy_to, "/home/admin/web/codehives.dev/proyecto"
+set :scm, :git
+set :branch, 'master'
+set :keep_releases, 5
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
 
